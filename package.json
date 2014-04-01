@@ -1,0 +1,39 @@
+{
+  "name": "corredor-js-client",
+  "version": "0.1.0",
+  "author": {
+    "name": "Andrew Halberstadt",
+    "email": "ahalberstadt@mozilla.com",
+    "url": "http://ahal.ca"
+  },
+  "description": "JS Client for Corredor test transport framework.",
+  "main": "index.js",
+
+  "keywords": [
+    "test",
+  ],
+
+  "dependencies": {
+    "zmq": "~2.6",
+  },
+
+  "devDependencies": {
+  },
+
+  "peerDependencies": {
+  },
+
+  "license": "MPL-2.0",
+
+  "engine": {
+    "node": ">=0.4"
+  },
+
+  "scripts": {
+  },
+
+  "repository" :
+  { "type" : "git"
+  , "url" : "http://github.com/ahal/corredor-js-client"
+  }
+}
