@@ -4,7 +4,7 @@ corredor-js-client
 > Spanish, corredor *m*, noun 1. corridor, hall 2. runner 3. broker
 
 This is the JS client for [corredor](http://github.com/ahal/corredor), a framework for creating
-distributed test frameworks.
+distributed test harnesses.
 
 Installation
 ============
