@@ -10,11 +10,11 @@
   "main": "index.js",
 
   "keywords": [
-    "test",
+    "test"
   ],
 
   "dependencies": {
-    "zmq": "~2.6",
+    "zmq": "~2.6"
   },
 
   "devDependencies": {
@@ -32,8 +32,8 @@
   "scripts": {
   },
 
-  "repository" :
-  { "type" : "git"
-  , "url" : "http://github.com/ahal/corredor-js-client"
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/ahal/corredor-js-client"
   }
 }
