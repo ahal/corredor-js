@@ -9,25 +9,18 @@ var PingPong = function() {
 
   this.master = new transport.ExclusivePair('ipc', '/tmp/corredor_exclusivepair');
   var _this = this;
-  this.master.registerAction('test_start', function(data) {
-    var test = data['test'];
-    console.log("Running test: " + test);
-
-    // simulate running a test
-    setTimeout(function() {
-      console.log("ok.");
-      _this.master.sendData({'action': 'test_end', 'test': test, 'unexpected': false });
-    }, 1000);
-  });
-
   this.master.registerAction('fin', function(data) {
     _this.master.socket.close();
     process.exit(0);
   });
 };
 
-PingPong.prototype.start = function() {
-  this.master.sendData({'action': 'ready'});
+PingPong.prototype.registerAction = function(action, callback) {
+  this.master.socket.actionMap[action] = callback;
+}
+
+PingPong.prototype.sendData = function(data) {
+  this.master.socket.send(data);
 }
 
 module.exports.PingPong = PingPong;
