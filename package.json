@@ -9,27 +9,34 @@
   "description": "JS Client for Corredor test transport framework.",
   "main": "index.js",
 
+  "contributors": [
+    "Gareth Aye <gaye@mozilla.com>"
+  ],
+
   "keywords": [
     "test"
   ],
 
   "dependencies": {
-    "zmq": "~2.6"
+    "debug": "0.8.x",
+    "zmq": "2.6.x"
   },
 
   "devDependencies": {
-  },
-
-  "peerDependencies": {
+    "chai": "1.9.x",
+    "jshint": "2.5.x",
+    "mocha": "1.18.x",
+    "sinon": "1.8.x"
   },
 
   "license": "MPL-2.0",
 
   "engine": {
-    "node": ">=0.4"
+    "node": ">=0.10"
   },
 
   "scripts": {
+    "test": "make test"
   },
 
   "repository" : {

@@ -1,7 +1,7 @@
-var transport = require('./transport');
+var Transport = require('./lib/transport');
 
 module.exports = {
-  ExclusivePair: transport.ExclusivePair,
-  StreamPublisher: transport.StreamPublisher,
-  Publisher: transport.Publisher
+  ExclusivePair: Transport.ExclusivePair,
+  StreamPublisher: Transport.StreamPublisher,
+  Publisher: Transport.Publisher
 };
