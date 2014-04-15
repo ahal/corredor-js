@@ -1,12 +1,12 @@
 {
-  "name": "corredor-js-client",
-  "version": "0.1.0",
+  "name": "corredor-js",
+  "version": "0.1.1",
   "author": {
     "name": "Andrew Halberstadt",
     "email": "ahalberstadt@mozilla.com",
     "url": "http://ahal.ca"
   },
-  "description": "JS Client for Corredor test transport framework.",
+  "description": "JS bindings for Corredor test transport framework.",
   "main": "index.js",
 
   "contributors": [
@@ -41,6 +41,6 @@
 
   "repository" : {
     "type" : "git",
-    "url" : "http://github.com/ahal/corredor-js-client"
+    "url" : "http://github.com/ahal/corredor-js"
   }
 }
