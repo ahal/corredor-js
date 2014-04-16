@@ -8,6 +8,12 @@ corredor-js
 This is the NodeJS binding for [corredor](http://github.com/ahal/corredor), a framework for creating
 distributed test harnesses and other applications.
 
+Documentation
+=============
+
+Please [readthedocs](http://corredor.readthedocs.org/projects/corredor-js/en/latest/) for more information.
+
+
 Installation
 ============
 
@@ -28,11 +34,6 @@ Corredor uses ZeroMQ for the transport. To install:
 
 If your OS is not listed or you want the latest version of zmq, please see the
 [official downloads page](http://zeromq.org/intro:get-the-software).
-
-Documentation
-=============
-
-Please [readthedocs](http://corredor.readthedocs.org/projects/corredor-js/en/latest/) for more information.
 
 Testing
 =======
